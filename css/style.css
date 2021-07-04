@@ -370,6 +370,7 @@ img {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .nav {
@@ -427,4 +428,48 @@ img {
 
 .nav a:hover {
     color: #015a31;
+}
+
+.memoria {
+    font-size: 1.5rem;
+}
+
+.button {
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #E85358;
+    border: solid 2px #E85358;
+    background-color: #ccc;
+}
+
+.buton:link, .button:visited, .button:active {
+    text-decoration: none;
+}
+
+.indice {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.indice h1 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.indice li {
+    margin-bottom: 3px;
+    list-style-image: url('../assets/img/copac_icon.png') ;
+}
+
+.indice a {
+    text-decoration: none;
+    color: #008F4F;
+}
+
+.indice a:hover {
+    text-decoration: underline;
 }
