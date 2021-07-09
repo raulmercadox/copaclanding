@@ -451,17 +451,18 @@ img {
 }
 
 .indice {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
 }
 
 .indice h1 {
     text-align: center;
     font-size: 1.3rem;
+    color: #008F4F;
 }
 
 .indice li {
-    margin-bottom: 3px;
+    margin-bottom: 8px;
     list-style-image: url('../assets/img/copac_icon.png') ;
 }
 
@@ -474,3 +475,71 @@ img {
     text-decoration: underline;
 }
 
+.seccionverde {
+    background-color: #008F4F;
+    padding: 20px;
+}
+
+.seccionverde article {
+    color: #ccc;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.secciongris {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.secciongris article {
+    color: #008F4F;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.secciongris h2, .seccionverde h2 {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.secciongris table, .seccionverde table {
+    margin-bottom: 30px;
+}
+
+.secciongris td, .seccionverde td {
+    padding-right: 20px;
+}
+
+.seccionverde .button {
+    width: 200px;
+    border: solid 1px #036a3a;
+    text-align: center;
+    margin: 40px auto 20px;
+    padding: 10px;
+    background-color: #ccc;
+    color: #008F4F;
+
+}
+
+.secciongris .button {
+    width: 200px;
+    border: solid 1px #6c6b6b;
+    text-align: center;
+    margin: 40px auto 20px;
+    padding: 10px;
+    background-color: #008F4F;
+    color: #ccc;
+}
