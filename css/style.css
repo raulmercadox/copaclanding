@@ -22,7 +22,7 @@ html {
 
 body {
     margin: 0;
-    font-family: Verdana;
+    font-family: Verdana, serif;
 }
 
 /**
@@ -85,7 +85,6 @@ a {
 
 abbr[title] {
     border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
     text-decoration: underline dotted; /* 2 */
 }
 
@@ -370,6 +369,7 @@ img {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .nav {
@@ -407,7 +407,7 @@ img {
     font-size: 3rem;
     flex-grow: 1;
     font-style: italic;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", "Times New Roman", serif;
     margin-left: 15px;
     text-align: center;
     color: #015a31;
@@ -429,3 +429,48 @@ img {
 .nav a:hover {
     color: #015a31;
 }
+
+.memoria {
+    font-size: 1.5rem;
+}
+
+.button {
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    /*padding: 5px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #E85358;
+    border: solid 2px #E85358;
+    background-color: #ccc;
+}
+
+.buton:link, .button:visited, .button:active {
+    text-decoration: none;
+}
+
+.indice {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.indice h1 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.indice li {
+    margin-bottom: 3px;
+    list-style-image: url('../assets/img/copac_icon.png') ;
+}
+
+.indice a {
+    text-decoration: none;
+    color: #008F4F;
+}
+
+.indice a:hover {
+    text-decoration: underline;
+}
+
